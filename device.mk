@@ -57,3 +57,6 @@ PRODUCT_COPY_FILES += \
 # NFC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf
+    
+# inherit fron washez vendor
+-include vendor/washez/washez-vendor.mk
